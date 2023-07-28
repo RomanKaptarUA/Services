@@ -10,16 +10,22 @@
 body{
     width: 1000px;
     padding: 0 29px;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
 }
 
 .section-form{
     background-color: var(--background-dark);
+    height: 679px;
+    flex-shrink: 0;
 }
 
 .contact-us{
     color: var(--background-light);
     text-transform: uppercase;
+    text-align: center;
+    padding: 92px;
 }
 
 .form-button{
@@ -31,3 +37,57 @@ body{
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.logo{
+    color: var(--logo-color);
+    font-family: 'Bilbo Swash Caps';
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header-link{
+    color: var(--logo-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header{
+    margin-bottom: 92px;
+    margin-top: 44px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 88px;
+}
+
+.info-item{
+    width: 274px;
+    text-align: center;
+}
+
+.list-title{
+    color: var(--background-dark);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.list-text{
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-list{
+    margin-bottom: 119px;
+}
+
+
